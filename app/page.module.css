@@ -23,6 +23,16 @@
   flex-grow: 1;
 }
 
+.littlewidth {
+  max-width: 300px;
+}
+
+.littlewidth img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;

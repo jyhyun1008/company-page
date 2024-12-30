@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'HambakSnow';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Danjo-bold-Regular.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
@@ -97,10 +97,6 @@ h1, h2 {
 
 img {
   width: 100%;
-}
-
-.littlewidth {
-  max-width: 300px;
 }
 
 @media (prefers-color-scheme: dark) {

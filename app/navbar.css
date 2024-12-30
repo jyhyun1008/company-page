@@ -1,7 +1,17 @@
 #navbar {
-    width: 100px;
+    width: 120px;
+    height: 120px;
     position: fixed;
-    top: 0;
-    left: calc(50vw - 50px);
+    top: -2em;
+    left: calc(50vw - 60px);
     z-index: 9999;
+    padding: 2.5em 1.9em 1.5em 1.9em;
+    border-radius: 0 0 50px 50px;
+    border: 1px solid var(--accentransy);
+    background-color: white;
+}
+
+#navbar img {
+    object-fit: contain;
+    object-position: center;
 }

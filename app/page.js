@@ -4,24 +4,26 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <div id="bannerimg"><img src="/mainimage.jpeg"></img></div>
+      <div id="bannerimg"><img src="https://images.pexels.com/photos/914682/pexels-photo-914682.jpeg"></img></div>
       <div id="bannermargin"></div>
       <fullwidth className={styles.fullwidth}>
         <main className={styles.main}>
           <div className={styles.flexgrow}>
-            <h1>Tellerium</h1>
+            <h1>JS Golf Academy</h1>
             <div>
-              <p><b>&lt;Teller+Terrarium&gt;</b></p>
-              <p>3인 3색 - 스토리텔러들의 작은 공간입니다.</p>
-              <p>작품을 발행하고 보존합니다.</p>
-              <p>작품과 연관된 굿즈와 잡지를 발매합니다.</p>
-            </div>
+              <p>저희 JS 골프 아카데미는 지속적인 도전과 실패를 통해 성공을 이뤄내는 가치를 사회 구성원들에게 전달하고자 합니다.</p>
+              <p>'우리' 라는 공동의 이념으로, 백제 트레이닝 센터 내에서 전문 골프 선수들을 육성하고, 발달장애인 골프 선수들에게 후원을 제공하며, 아파트 커뮤니티의 운영과 커피숍 프랜차이즈 사업 등 다양한 프로젝트를 통해 큰 꿈을 실현하고자 노력하고 있습니다.</p>
+              <p>"가장 두려워해야 할 것은 스스로 약속한 것을 지키는 것입니다."</p>        
+              <p>"기회가 오지 않음을 두려워하지 말고, 준비가 되어 있지 않음을 두려워하십시오."</p>         
+              <p>"실수하지 않는 사람이 되는 것보다 포기하지 않는 사람이 되는 것이 중요합니다."</p>
+              <p>이러한 미션을 가슴에 품고, 지속적인 노력을 통해 성공을 이루는 데 최선을 다할 것입니다.</p>
+              </div>
               <ctas className={styles.ctas}>
                 <a href="/about" className={styles.primary}>더보기</a>
               </ctas>
           </div>
-          <div className="littlewidth">
-            <img src="/cafe.jpeg"></img>
+          <div className={styles.littlewidth}>
+            <img src="https://images.pexels.com/photos/1325751/pexels-photo-1325751.jpeg"></img>
           </div>
         </main>
       </fullwidth>
