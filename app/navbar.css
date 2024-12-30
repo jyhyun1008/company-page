@@ -1,0 +1,7 @@
+#navbar {
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: calc(50vw - 50px);
+    z-index: 9999;
+}
