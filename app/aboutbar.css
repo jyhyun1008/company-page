@@ -1,17 +1,59 @@
 #aboutbar {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
-    padding: 1em 2em;
+    padding: 0 1em;
     border-bottom: 1px var(--accentransy) solid;
     font-weight: 700;
-    color: var(--accent);
+    color: var(--accentdark);
     position: fixed;
     z-index: 90;
     background-color: var(--backgroundtransy);
 }
 
 #aboutbar > div {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutbar .bargroup {
     display: flex;
     gap: 3em;
+}
+
+.about-item {
+    position: relative;
+    display: flex;
+    height: 3em;
+    width: 140px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-item a {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 3rem;
+    width: 140px;
+    background-color: white;
+    border: var(--accentransy) 1px solid;
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown a {
+    padding: 1rem;
+    font-weight: 400;
+}
+
+.about-item:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
