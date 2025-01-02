@@ -18,11 +18,19 @@
     border-bottom: 1px solid var(--accentransy);
     padding: 80px;
     overflow: hidden;
-    background-color: #ffffffbb;
+    background-color: white;
   }
   
   .fullwidth .flexgrow {
     flex-grow: 1;
+  }
+
+  .fullwidth h1 {
+    margin-block-start: -0.5rem;
+  }
+
+  .flexgrow p {
+    margin-bottom: 2rem;
   }
   
   .littlewidth {
@@ -39,6 +47,12 @@
     aspect-ratio: 3 / 4;
     object-fit: cover;
     object-position: center;
+  }
+
+  .chrogrid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    row-gap: 10px;
   }
   
   @media (prefers-color-scheme: dark) {
@@ -193,4 +207,3 @@
       filter: invert();
     }
   }
-  

@@ -1,15 +1,15 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Largetitle from '../../components/Largetitle.js'
+import Largetitle from '../../../components/Largetitle.js'
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <div id="bannerimg"><img src="https://cdn.imweb.me/thumbnail/20200430/faa736710e495.jpg"></img></div>
       <div id="bannermargin"></div>
-      <Largetitle subtitle='기 / 업 / 소 / 개' title='About YS' />
+      <Largetitle subtitle='기 / 업 / 소 / 개' title='About JS Golf Agency' />
       <fullwidth className={styles.fullwidth}>
-        <div id="golfbackground"></div>
+        <div className={styles.ceobackground}></div>
         <main className={styles.main}>
           <div className={styles.flexgrow}>
             <h2>Joyous Support,</h2>
@@ -24,6 +24,11 @@ export default function Home() {
                 <p>JS 골프 에이전시 골프 아카데미 학생들은 JS 골프 에이전시에서 기획하고 주최하는 국내/외 대회는 물론, <br />JS 골프 에이전시 소속만이 누릴 수 있는 다양한 대회의 출전 자격을 갖게 됨과 동시에<br />예선에서 탈락하더라도 본선에 진출할 수 있는 최대의 특전으로 '3부 투어 본선자격'의 특혜를 누릴 수 있습니다.</p>
                 <p>JS 골프 에이전시는 이처럼 노력하고 더 나아가 지역사회의 허브 역할을 도모하여<br />지속적인 후원과 대회 개최를 통해 새로운 도약을 목표로 선도하겠습니다.</p>
               </div>
+          </div>
+          <div className={styles.signature}>
+            <p>JS Golf Agency</p>
+            <p>CEO <span>육 종 승</span></p>
+            <p><img src="https://cdn.imweb.me/upload/S202004039b79029ae4742/b0b779acf97fe.png" /></p>
           </div>
         </main>
       </fullwidth>

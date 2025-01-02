@@ -5,9 +5,9 @@ import Largetitle from '../../components/Largetitle.js'
 export default function Home() {
   return (
     <div className={styles.page}>
-      <div id="bannerimg"><img src="https://cdn.imweb.me/thumbnail/20200430/faa736710e495.jpg"></img></div>
+      <div id="bannerimg"><img src="https://images.pexels.com/photos/914682/pexels-photo-914682.jpeg"></img></div>
       <div id="bannermargin"></div>
-      <Largetitle subtitle='기 / 업 / 소 / 개' title='About YS' />
+      <Largetitle subtitle='회 / 사 / 소 / 개' title='About YS' />
       <fullwidth className={styles.fullwidth}>
         <div id="golfbackground"></div>
         <main className={styles.main}>

@@ -24,8 +24,8 @@
 }
 
 .littlewidth {
-  width: 100%;
-  max-width: 300px;
+  min-width: 400px; 
+  max-width: 400px;
 }
 
 .midwidth {
@@ -34,7 +34,8 @@
 }
 
 .littlewidth img {
-  aspect-ratio: 3 / 4;
+  height: -webkit-fill-available;
+  min-height: 600px;
   object-fit: cover;
   object-position: center;
 }
@@ -123,23 +124,6 @@
   font-weight: 500;
 }
 
-.heading {
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  background-color: var(--backgroundtransy);
-  width: 100%;
-  color: var(--accentdark)
-}
-
-.heading h1 {
-  font-size: 3rem;
-  color: var(--accent);
-}
-
 .gallery {
   margin: 1em 0;
   display: grid;
@@ -182,22 +166,6 @@ a.primary {
 a.secondary {
   border-color: var(--gray-alpha-200);
   min-width: 180px;
-}
-
-.footer {
-  grid-row-start: 3;
-  display: flex;
-  gap: 24px;
-}
-
-.footer a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.footer img {
-  flex-shrink: 0;
 }
 
 /* Enable hover only on non-touch devices */

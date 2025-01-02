@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Largetitle from "../components/Largetitle"
 
 export default function Home() {
   return (
@@ -62,10 +63,7 @@ export default function Home() {
             </ctas>
         </main2>
       </fullwidth>
-      <div className={styles.heading}>
-        <p>찾아가는 24시간 골프구조대</p>
-        <h1>GOLF119</h1>
-      </div>
+      <Largetitle subtitle='찾아가는 24시간 골프구조대' title='GOLF119' />
       <fullwidth className={styles.fullwidth}>
         <main2 className={styles.main2}>
             <iframe className="youtube" src="https://www.youtube.com/embed/9C3773tK2Ys?si=Gl_Klf-QGqoih5yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

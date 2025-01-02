@@ -28,27 +28,27 @@ export default function RootLayout({ children }) {
               <div className="about-item">
                 <a href="/about">About YS</a>
                 <div className="dropdown">
-                  <a href="/">About JS</a>
-                  <a href="/">Vision & Mission</a>
-                  <a href="/">History</a>
+                  <a href="/about/about-js">About JS</a>
+                  <a href="/about/vision">Mission & Vision</a>
+                  <a href="/about/history">History</a>
                 </div>
               </div>
               <div className="about-item">
-                <a href="/works">Business</a>
+                <a href="/business">Business</a>
                 <div className="dropdown">
-                  <a href="/">Golf</a>
-                  <a href="/">Community Center</a>
-                  <a href="/">Screen Golf</a>
-                  <a href="/">Franchise</a>
-                  <a href="/">Management</a>
+                  <a href="/business/golf">Golf</a>
+                  <a href="/business/center">Community Center</a>
+                  <a href="/business/screengolf">Screen Golf</a>
+                  <a href="/business/franchise">Franchise</a>
+                  <a href="/business/management">Management</a>
                 </div>
               </div>
             </div>
             <div id="about-right" className="bargroup">
               <div className="about-item">
-                <a href="/goods">Community</a>
+                <a href="/community">Community</a>
                 <div className="dropdown">
-                <a href="/">News</a>
+                <a href="/community/news">News</a>
                 <a href="/">Event</a>
                 <a href="/">Gallery</a>
                 <a href="/">Communication</a>
@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
         {children}
         <footer>
           <div>
-            <p><b>(주)육성그룹</b> / 대표 육종승</p>
+            <p><b>(주)육성그룹</b> | 대표 육종승</p>
             <p>E-mail: jsga2020@gmail.com</p>
             <p>Tel: 1660-3532 | Fax: 042-544-3533</p>
             <p>Adr: 세종특별자치시 도움1로 7, 204호</p>
