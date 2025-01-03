@@ -26,7 +26,7 @@
 .about-item {
     position: relative;
     display: flex;
-    height: 3em;
+    height: 3rem;
     width: 140px;
     text-align: center;
     justify-content: center;
@@ -56,4 +56,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+@media (max-width: 1000px) {
+    #aboutbar > div {
+        padding-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #aboutbar .bargroup {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .dropdown {
+        position: relative;
+        top: 1rem;
+        background-color: transparent;
+        border: 0;
+        color: var(--accent);
+    }
+
+    .about-item {
+        flex-direction: column;
+        height: unset;
+        padding: 1rem 0;
+    }
 }

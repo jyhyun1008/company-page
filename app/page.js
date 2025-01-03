@@ -9,11 +9,14 @@ export default function Home() {
       <div id="bannermargin"></div>
       <fullwidth className={styles.fullwidth}>
         <main className={styles.main}>
-          <div className="littlewidth">
+          <div className="littlewidth desktopdisplay">
             <img src="https://cdn.imweb.me/thumbnail/20230717/b03eb3912c8be.jpg"></img>
           </div>
           <div className={styles.flexgrow}>
             <h1>KLPGA 신 비 선수</h1>
+            <div className="mobiledisplay">
+              <img src="https://cdn.imweb.me/thumbnail/20230717/b03eb3912c8be.jpg"></img>
+            </div>
             <div>
               <p>JS Golf Agency는 꾸준한 후원 활동으로 선수의 능력을 파악하고 길러내며, 선수가 더욱이 자신의 실력을 발휘할 수 있도록 올바른 이정표가 되어 주고 있습니다. 그 중 우수한 수상 경력을 가진 KLPGA 소속 신 비 선수를 자세히 만나 보세요.</p>
               <p><b>수상 경력</b></p>

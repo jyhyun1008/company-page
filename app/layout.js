@@ -1,6 +1,7 @@
 import "./globals.css";
 import "./navbar.css";
 import "./aboutbar.css";
+import Menubar from "../components/Menubar.js"
 
 export const metadata = {
   title: "제이에스 골프 에이전시",
@@ -16,50 +17,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">
+      <head>
+        <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+      </head>
       <body>
         <div id="navbar">
           <div id="logo">
             <a href="/"><img src="https://cdn.imweb.me/upload/S202004039b79029ae4742/1583c8a401770.png" /></a>
           </div>
         </div>
-        <div id="aboutbar">
-          <div>
-            <div id="about-left" className="bargroup">
-              <div className="about-item">
-                <a href="/about">About YS</a>
-                <div className="dropdown">
-                  <a href="/about/about-js">About JS</a>
-                  <a href="/about/vision">Mission & Vision</a>
-                  <a href="/about/history">History</a>
-                </div>
-              </div>
-              <div className="about-item">
-                <a href="/business">Business</a>
-                <div className="dropdown">
-                  <a href="/business/golf">Golf</a>
-                  <a href="/business/center">Community Center</a>
-                  <a href="/business/screengolf">Screen Golf</a>
-                  <a href="/business/franchise">Franchise</a>
-                  <a href="/business/management">Management</a>
-                </div>
-              </div>
-            </div>
-            <div id="about-right" className="bargroup">
-              <div className="about-item">
-                <a href="/community">Community</a>
-                <div className="dropdown">
-                <a href="/community/news">News</a>
-                <a href="/">Event</a>
-                <a href="/">Gallery</a>
-                <a href="/">Communication</a>
-                </div>
-              </div>
-              <div className="about-item">
-                <a href="/subscribe">Contact</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Menubar />
         {children}
         <footer>
           <div>
