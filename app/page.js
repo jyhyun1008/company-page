@@ -10,7 +10,7 @@ export default function Home() {
       <div id="bannermargin"></div>
       <fullwidth className={styles.fullwidth}>
         <main className={styles.main}>
-          <div className="littlewidth desktopdisplay">
+          <div className={styles.littlewidth}>
             <img src="https://cdn.imweb.me/thumbnail/20230717/b03eb3912c8be.jpg"></img>
           </div>
           <div className={styles.flexgrow}>
@@ -96,7 +96,7 @@ export default function Home() {
                 <a href="/about" className={styles.primary}>더보기</a>
               </ctas>
           </div>
-          <div className="littlewidth desktopdisplay">
+          <div className={styles.littlewidth}>
             <img src="https://images.pexels.com/photos/1325751/pexels-photo-1325751.jpeg"></img>
           </div>
         </main>

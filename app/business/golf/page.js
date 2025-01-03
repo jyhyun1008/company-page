@@ -26,14 +26,14 @@ export default function Home() {
                 <p>JS 골프 에이전시는 이처럼 노력하고 더 나아가 지역사회의 허브 역할을 도모하여<br />지속적인 후원과 대회 개최를 통해 새로운 도약을 목표로 선도하겠습니다.</p>
               </div>
           </div>
-          <div className="littlewidth desktopdisplay">
+          <div className={styles.littlewidth}>
             <img src="/golf_2.png"></img>
           </div>
         </main>
       </fullwidth>
       <fullwidth className={styles.fullwidth}>
         <main className={styles.main}>
-          <div className="littlewidth desktopdisplay">
+          <div className={styles.littlewidth}>
             <img src="https://cdn.imweb.me/thumbnail/20200430/732acc61e5e0d.jpg"></img>
           </div>
           <div className={styles.flexgrow}>

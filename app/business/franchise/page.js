@@ -25,14 +25,14 @@ export default function Home() {
                 <p>인공 조미료 대신 천연 조미료를 사용해 맛에 풍미를 더하고<br />대중성 있고 다양한 음식 및 계절 메뉴 등을 준비하고 있으며,<br />모든 식재료에 대한 원산지를 표시하는 등 위생과 건강, 그리고 투명성을 중시하여 운영합니다.</p>
               </div>
           </div>
-          <div className="littlewidth desktopdisplay">
+          <div className={styles.littlewidth}>
             <img src="https://cdn.imweb.me/thumbnail/20200430/2a4783d58fc40.jpg"></img>
           </div>
         </main>
       </fullwidth>
       <fullwidth className={styles.fullwidth}>
         <main className={styles.main}>
-          <div className="littlewidth desktopdisplay">
+          <div className={styles.littlewidth}>
             <img src="https://cdn.imweb.me/thumbnail/20200825/8d23c483d6dcf.png"></img>
           </div>
           <div className={styles.flexgrow}>

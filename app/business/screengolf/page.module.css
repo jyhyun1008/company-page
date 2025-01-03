@@ -165,12 +165,15 @@
     padding: 0;
   }
 
-  .littlewidth, .midwidth {
+
+  .midwidth {
     max-width: unset;
     width: 100%;
-    padding: 0;
   }
 
+  .littlewidth {
+    display: none;
+  }
   .main2 {
     margin: 1rem 0;
   }
