@@ -178,13 +178,10 @@
     padding: 3rem 10px;
   }
 
-  .midwidth {
+  .littlewidth, .midwidth {
     max-width: unset;
     width: 100%;
-  }
-
-  .littlewidth {
-    display: none;
+    padding: 0;
   }
 
   .main2 {
