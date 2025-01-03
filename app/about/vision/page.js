@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div id="bannerimg">
-        <img id="bannerimg" src="https://cdn.imweb.me/thumbnail/20200430/faa736710e495.jpg"></img>
-        <h1>BUSINESS</h1>
+        <img src="https://cdn.imweb.me/thumbnail/20200430/faa736710e495.jpg"></img>
+        <h1>INTRODUCTION</h1>
       </div>
       <div id="bannermargin"></div>
       <Largetitle subtitle='기 / 업 / 소 / 개' title='Mission & Vision' />

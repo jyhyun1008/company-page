@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Largetitle from '../../../components/Largetitle.js'
+import ImgViewer from "@/components/ImgViewer";
 
 export default function Home() {
   return (
@@ -28,21 +29,11 @@ export default function Home() {
         </main>
         <main2 className={styles.main2}>
             <gallery className={styles.gallery2}>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20200825/7a0f897019614.png" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20200825/aa2f3b129dc50.png" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20200825/7d3268c1fa33d.png" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20200825/c3de06a1555e2.png" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20200825/162142c6ccb8c.png" />
-              </div>
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20200825/7a0f897019614.png" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20200825/aa2f3b129dc50.png" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20200825/7d3268c1fa33d.png" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20200825/c3de06a1555e2.png" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20200825/162142c6ccb8c.png" />
             </gallery>
         </main2>
       </fullwidth>

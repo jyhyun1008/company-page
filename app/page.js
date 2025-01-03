@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Largetitle from "../components/Largetitle"
+import ImgViewer from "@/components/ImgViewer";
 
 export default function Home() {
   return (
@@ -36,30 +37,14 @@ export default function Home() {
         <main2 className={styles.main2}>
             <h1>베스트 스크린 골프장</h1>
             <gallery className={styles.gallery}>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240321/9c94b59e605f7.jpeg" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240321/12e67ce81c204.jpeg" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240321/bd1537a7bfd71.jpeg" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240321/95bef63fa6e78.jpeg" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240321/7dae8d8fcd59b.jpeg" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240321/9d83f43fdd1c5.jpeg" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240321/bcea66fd30b36.jpeg" />
-              </div>
-              <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240530/49d9f417d0533.jpeg" />
-              </div>
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240321/9c94b59e605f7.jpeg" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240321/12e67ce81c204.jpeg" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240321/bd1537a7bfd71.jpeg" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240321/95bef63fa6e78.jpeg" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240321/7dae8d8fcd59b.jpeg" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240321/9d83f43fdd1c5.jpeg" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240321/bcea66fd30b36.jpeg" />
+              <ImgViewer src="https://cdn.imweb.me/thumbnail/20240530/49d9f417d0533.jpeg" />
             </gallery>
             <ctas className={styles.ctas}>
               <a href="/works" className={styles.primary}>더보기</a>
@@ -72,19 +57,19 @@ export default function Home() {
             <iframe className="youtube" src="https://www.youtube.com/embed/9C3773tK2Ys?si=Gl_Klf-QGqoih5yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <gallery className={styles.gallery2}>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240424/bc0a898fb3905.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20240424/bc0a898fb3905.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240424/5564ecdad8bd7.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20240424/5564ecdad8bd7.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240424/5da612c9d26d3.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20240424/5da612c9d26d3.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240424/899c257095a19.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20240424/899c257095a19.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20240424/6fa9063ce2b38.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20240424/6fa9063ce2b38.jpg" />
               </div>
             </gallery>
             <ctas className={styles.ctas}>
@@ -131,22 +116,22 @@ export default function Home() {
         <main2 className={styles.main2}>
             <gallery className={styles.gallery3}>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20211208/c39b6f2f24946.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20211208/c39b6f2f24946.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20211208/0418b23edd7d4.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20211208/0418b23edd7d4.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20211208/ea3c43c189c9e.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20211208/ea3c43c189c9e.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20211208/0be95fec60274.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20211208/0be95fec60274.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20211208/056f78bc7d7d7.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20211208/056f78bc7d7d7.jpg" />
               </div>
               <div>
-                <img src="https://cdn.imweb.me/thumbnail/20211208/71faae8df1843.jpg" />
+                <ImgViewer src="https://cdn.imweb.me/thumbnail/20211208/71faae8df1843.jpg" />
               </div>
             </gallery>
         </main2>
