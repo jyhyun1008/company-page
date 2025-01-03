@@ -118,7 +118,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
-  gap: 10px;
+  gap: 5px;
 }
 
 .gallery2 {
@@ -126,7 +126,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
-  gap: 10px;
+  gap: 5px;
 }
 
 .gallery3 {
@@ -134,7 +134,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  gap: 10px;
+  gap: 5px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -203,5 +203,10 @@ a.secondary {
     width: 100vw;
     display: flex;
     justify-content: center;
+  }
+
+  .main h1, .main2 h1 {
+    color: var(--accent);
+    font-size: 1.7rem;
   }
 }

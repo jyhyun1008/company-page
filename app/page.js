@@ -81,6 +81,9 @@ export default function Home() {
         <main className={styles.main}>
           <div className={styles.flexgrow}>
             <h1>JS Golf Academy</h1>
+            <div className="mobiledisplay">
+              <img src="https://images.pexels.com/photos/1325751/pexels-photo-1325751.jpeg"></img>
+            </div>
             <div>
               <p>저희 JS 골프 아카데미는 지속적인 도전과 실패를 통해 성공을 이뤄내는 가치를 사회 구성원들에게 전달하고자 합니다.</p>
               <p>'우리' 라는 공동의 이념으로, 백제 트레이닝 센터 내에서 전문 골프 선수들을 육성하고, 발달장애인 골프 선수들에게 후원을 제공하며, 아파트 커뮤니티의 운영과 커피숍 프랜차이즈 사업 등 다양한 프로젝트를 통해 큰 꿈을 실현하고자 노력하고 있습니다.</p>
@@ -93,7 +96,7 @@ export default function Home() {
                 <a href="/about" className={styles.primary}>더보기</a>
               </ctas>
           </div>
-          <div className={styles.littlewidth}>
+          <div className="littlewidth desktopdisplay">
             <img src="https://images.pexels.com/photos/1325751/pexels-photo-1325751.jpeg"></img>
           </div>
         </main>

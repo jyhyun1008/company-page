@@ -15,6 +15,9 @@ export default function Home() {
         <main className={styles.main}>
           <div className={styles.flexgrow}>
             <h1>Restaurant</h1>
+            <div className="mobiledisplay">
+              <img src="https://cdn.imweb.me/thumbnail/20200430/2a4783d58fc40.jpg"></img>
+            </div>
             <div>
                 <h3>백제 트레이닝센터 식당</h3>
                 <p>JS 골프 에이전시 소속 프로들과 아카데미 학생들에게 건강한 한 끼를 대접하기 위해<br />부여 백제 트레이닝센터 내 식당을 JS 사업이 직접 운영합니다.</p>
@@ -22,18 +25,21 @@ export default function Home() {
                 <p>인공 조미료 대신 천연 조미료를 사용해 맛에 풍미를 더하고<br />대중성 있고 다양한 음식 및 계절 메뉴 등을 준비하고 있으며,<br />모든 식재료에 대한 원산지를 표시하는 등 위생과 건강, 그리고 투명성을 중시하여 운영합니다.</p>
               </div>
           </div>
-          <div className={styles.littlewidth}>
+          <div className="littlewidth desktopdisplay">
             <img src="https://cdn.imweb.me/thumbnail/20200430/2a4783d58fc40.jpg"></img>
           </div>
         </main>
       </fullwidth>
       <fullwidth className={styles.fullwidth}>
         <main className={styles.main}>
-          <div className={styles.littlewidth}>
+          <div className="littlewidth desktopdisplay">
             <img src="https://cdn.imweb.me/thumbnail/20200825/8d23c483d6dcf.png"></img>
           </div>
           <div className={styles.flexgrow}>
             <h1>Cafe</h1>
+            <div className="mobiledisplay">
+              <img src="https://cdn.imweb.me/thumbnail/20200825/8d23c483d6dcf.png"></img>
+            </div>
             <div>
                 <h3>휘트니스센터 카페</h3>
                 <p>JS 골프 에이전시에서는 도안 휘트니스센터 다드림1호점을 시작으로, 도안 북카페 다드림2호점, 관저 휘트니스센터 다드림3호점까지의 카페를 운영하고 있습니다.</p>

@@ -23,7 +23,7 @@ function ImgViewer(props) {
         width: '100%',
         height: '100%',
         aspectRatio: 'unset !important',
-        objectFit: 'contain'
+        objectFit: 'contain',
     }
 
     const closeStyle = {

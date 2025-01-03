@@ -169,16 +169,14 @@ i {
 }
 
 @media (max-width: 1000px) {
-  .about-item {
-    width: 13vw !important;
-  }
 
   .mobiledisplay, .mobilevisible {
     display: block !important;
   }
 
   .mobiledisplay img {
-    aspect-ratio: 1 / 1;
+    width: 100vw;
+    max-height: 100vw;
     object-fit: contain;
   }
 
@@ -200,5 +198,9 @@ i {
     z-index: 9998;
     text-align: right;
     background-color: var(--background);
+  }
+
+  #bannerimg h1 {
+    display: none;
   }
 }

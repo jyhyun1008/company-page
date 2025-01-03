@@ -151,8 +151,14 @@
       gap: 0;
     }
   
+
     .flexgrow {
       margin: 3rem 0 !important;
+      padding: 0 !important;
+    }
+  
+    .flexgrow h1, .flexgrow h2, .flexgrow h3, .flexgrow p {
+      padding: 0 10px;
     }
   
     .fullwidth {

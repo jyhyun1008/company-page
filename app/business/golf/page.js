@@ -15,6 +15,9 @@ export default function Home() {
         <main className={styles.main}>
           <div className={styles.flexgrow}>
             <h1>Golf</h1>
+            <div className="mobiledisplay">
+              <img src="/golf_2.png"></img>
+            </div>
             <div>
                 <p>현재 대한민국 골프는 실력 있는 프로들의 활약으로 선진국을 능가하는 스포츠로 자리매김하였으며, 한국 골프 산업은 물론 대중들의 골프에 대한 관심 역시 날로 증가하고 있습니다.</p>
                 <p>이미 한국의 골프 활동 인구는 600만 명을 넘어섰습니다.<br />이에 JS 골프 에이전시는 미국이나 일본과는 다르게 젊은 층이 유입되고 있는 한국의 골프 시장에 맞춰 조기 골프 교육을 접할 수 있도록 아카데미를 운영하고, 아마추어 선수들의 양성에 힘쓰고 있습니다.</p>        
@@ -23,18 +26,21 @@ export default function Home() {
                 <p>JS 골프 에이전시는 이처럼 노력하고 더 나아가 지역사회의 허브 역할을 도모하여<br />지속적인 후원과 대회 개최를 통해 새로운 도약을 목표로 선도하겠습니다.</p>
               </div>
           </div>
-          <div className={styles.littlewidth}>
+          <div className="littlewidth desktopdisplay">
             <img src="/golf_2.png"></img>
           </div>
         </main>
       </fullwidth>
       <fullwidth className={styles.fullwidth}>
         <main className={styles.main}>
-          <div className={styles.littlewidth}>
+          <div className="littlewidth desktopdisplay">
             <img src="https://cdn.imweb.me/thumbnail/20200430/732acc61e5e0d.jpg"></img>
           </div>
           <div className={styles.flexgrow}>
             <h1>Golf Club</h1>
+            <div className="mobiledisplay">
+              <img src="https://cdn.imweb.me/thumbnail/20200430/732acc61e5e0d.jpg"></img>
+            </div>
             <div>
                 <h3>조이어스 골프</h3>
                 <p>조이어스 골프(Joyous Golf)는 <b>어린이와 청소년을 위한 프로그램</b>으로,<br />골프를 학습함으로써 이들의 소근육과 대근육을 발달시키고 체력을 향상시키는 데 초점을 두고 있습니다.<br />뿐만 아니라 골프 스윙에서의 균형 감각을 키움으로써 자연스러운 움직임을 유도하며, 학업 스트레스를 해소하고 집중력을 향상시키는 데에도 도움을 줍니다.</p>

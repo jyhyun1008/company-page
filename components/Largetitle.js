@@ -4,6 +4,7 @@ const headingStyle = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    textAlign: 'center',
     justifyContent: 'center',
     fontSize: '24px',
     backgroundColor: 'var(--backgroundtransy)',
